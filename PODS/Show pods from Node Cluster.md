@@ -16,4 +16,4 @@ docker ps | grep apache
 ```
 
 Aqui no se ven los pods sino los contenedores como tal, de las imagenes que vamos creando con los pods.
-Podemos manipular estos componentes, sin embargo, no se lo hace directamente ya que para ello lo hacemos desde fuera con kubectl. No se toca directamente.
+Podemos manipular estos componentes, sin embargo, no se lo hace directamente ya que para ello lo hacemos desde fuera con _kubectl_. No se toca directamente.

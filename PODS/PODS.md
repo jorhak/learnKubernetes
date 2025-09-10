@@ -9,6 +9,10 @@
 # [[Introduction YAML]]
 
 # [[Create pod with MANIFEST]]
+# [[Generate settings POD with yaml and json]]
+# [[Dashboard]]
+# [[Dashboard de minikube]]
+
 # [[Command APPLY]]
 # [[Delete pods]]
 # [[Pods multicontenedores]]

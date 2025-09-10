@@ -61,4 +61,4 @@ Para ver que se tomaron los cambios
 kubectl get pod nginx -o yaml
 ```
 
-El **apply** me permite hacer cambios mientras que el **create, run** que son de forma imperativa no.
+El **apply** me permite hacer cambios mientras que **create, run** que son de forma imperativa no.

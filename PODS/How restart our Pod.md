@@ -1,8 +1,8 @@
 Politica de restart (restartPolicy), rebote que indica cuando un pod termina.
 Como debe rebotar nuestro pod, en este caso para que nuestro pod se reinice tenemos tres opciones:
-- Allways        >> Que siempre que cuando el pod                                      tenga un problema o se pare o tenga                             alguna caida que este se reinicie                                    siempre
-- OnFailure     >> Que solo se reinicia si ha fallado, solo                             me lo reinicia si el pod si me falla el                                contenedor.
-- Never           >> No quiero que este pod haga en                                     reinicio, hasta que se lo haga a mano.
+- Allways        >> Que siempre que cuando el pod tenga un problema o se pare o tenga alguna caida que este se reinicie siempre
+- OnFailure      >> Que solo se reinicia si ha fallado, solo me lo reinicia si el pod si me falla el contenedor.
+- Never          >> No quiero que este pod haga en reinicio, hasta que se lo haga a mano.
 
 Allways es la opcion predefinida en los **pods**, a los pods que no se le pone la propiedad este se reinicia por defecto.
 

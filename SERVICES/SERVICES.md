@@ -1,0 +1,6 @@
+# [[Introduction Services]]
+# [[Create service type NodePort]]
+# [[Scalar a deploy. How reaction service?]]
+# [[Create service type LoadBalancer]]
+# [[Create service type ClusterIP - Redis]]
+# [[Practice, service mode declarative]]

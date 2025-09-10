@@ -7,9 +7,9 @@ kubectl delete all --all
 
 Aqui debemos explicar la sintaxis de este comando:
 kubectl >> comando que se ejecuta en el k8s
-delete   >> accion que se va emplear
-all          >> tipo de objeto al que sele va aplicar la accion                    en este caso es a todos los objetos: pod, svc,                    depleyment, etc.
---all       >> indica que se ve aplicar a todos los que pertenecen a ese servicio, por decir, si tenemos tres pods los va a eliminar, si tenemos cinco svc de igual modo los va a eliminar.
+delete  >> accion que se va emplear
+all     >> tipo de objeto al que sele va aplicar la accion                    en este caso es a todos los objetos: pod, svc, depleyment, etc.
+--all   >> indica que se ve aplicar a todos los que pertenecen a ese servicio, por decir, si tenemos tres pods los va a eliminar, si tenemos cinco svc de igual modo los va a eliminar.
 
 Tenemos para este ejemplo un fichero **multi.yaml** y lo ejecutamos
 
