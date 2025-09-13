@@ -2,6 +2,7 @@
 
 Para esta practica vamos a contar con una web ya hecha lo que debemos hacer es crear la imagen para la aplicacion web. 
 Lo primero que vamos hacer es crear un _Dockerfile_ para crear la imagen y luego vamos a probar la imagen.
+Nos debemos ubicar en SERVICES/practica.
 
 Dockerfile
 ```
@@ -172,3 +173,60 @@ El nombre que nos salga debemos reemplazar.
 ```
 
 Debemos volver a Ejecutar.
+
+# Endpoints
+Los servicios apuntan a los endpoints que son los _pods_ con los que trabajamos.
+Para ver que esto es asi vamos a ver nuestro servicio.
+
+Aqui tenemos el puerto por el que se va exponer al exterior y el interno del contenedor
+```
+kubectl get svc web-svc
+```
+
+De igual modo podemos ver que el servicio esta apuntando a los distintos endpoints con los que se estan trabajando que corresponderan a los pods.
+```
+kubectl describe svc web-svc
+```
+
+Vamos a ver las _IPs_ de los _pods_ para verificar con el servicio.
+```
+kubectl get pod -o wide
+```
+
+Los endpoint son objetos tambien pero los estabamos viendo como una propiedad adicional de los servicios pero en realidad tienen entidad propia.
+Un endpoint establece la realacion entre un servico y un pod.
+
+## Ver endpoints
+```
+kubectl get endpoints
+kubectl get endpoints web-svc -o wide
+kubectl describe endpoints web-svc
+kubectl get endpoints web-svc -o yaml
+```
+
+# Variables de entorno de los Pods
+Cuando se crea un servico dentro de cada pod se activan o crean unas variables de entorno que se integran directamente con K8s.
+
+```
+kubectl get svc
+kubectl describe svc nginx-svc
+```
+
+Vamos a ver como es que funciona estas variables dentro del _pod_. 
+
+```
+kubectl get pods
+kubectl exec pods <nombre del pod> -- bash
+env
+env | grep NGINX
+```
+
+Vemos que esta informacion esta activa dentro de este _pod_ por que hemos creado un servico a lo largo de el.
+
+Verificar la variables de entorno del _pod_ con el _service_.
+```
+kubectl describe svc nginx-svc
+```
+
+Vamos a ver que NGINX_SVC_SERVICE_HOST=10.96.204.81 es igual a IP:10.96.204.81 es por eso que ambos objetos se conocen y se pueden comunicar.
+
