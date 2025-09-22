@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NAMESPACE/Create objects on namespace.md",
+                "file": "ROLLING UPDATES/RECREATE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Create objects on namespace"
+              "title": "RECREATE"
             }
           },
           {
@@ -196,19 +196,32 @@
   },
   "active": "35eaf719fc0e9da3",
   "lastOpenFiles": [
-    "NAMESPACE/recursosCrearObjetosEnNamespace.zip",
-    "NAMESPACE/Unconfirmed 328845.crdownload",
-    "NAMESPACE/NAMESPACE.md",
-    "NAMESPACE/Create and delete namaspace.md",
-    "NAMESPACE/recursosCrearNamespace.zip",
-    "NAMESPACE/Unconfirmed 949739.crdownload",
-    "NAMESPACE/Introduction Namespace.md",
+    "ROLLING UPDATES/DESHACER CAMBIOS ROLLING BACK.md",
+    "ROLLING UPDATES/ROLLING UPDATES.md",
+    "ROLLING UPDATES/MODIFICAR LA APLICACION ROLLING UPDATES.md",
+    "ROLLING UPDATES/RECREATE.md",
+    "PODS/PODS.md",
+    "ROLLING UPDATES/nginx-svc.yaml",
+    "ROLLING UPDATES/Unconfirmed 338812.crdownload",
+    "ROLLING UPDATES/deploy_nginx_ori.yaml",
+    "ROLLING UPDATES/Unconfirmed 762730.crdownload",
     "NAMESPACE/Controler events in a namespece.md",
+    "ROLLING UPDATES",
+    "LINUX/Anaconda.md",
+    "install/Generar tokens y hash.md",
+    "install/install K8s.md",
+    "NAMESPACE/NAMESPACE.md",
     "NAMESPACE/Put CPU and memory the namespace.md",
+    "NAMESPACE/recursosPonerLimintes.zip",
+    "NAMESPACE/Unconfirmed 176493.crdownload",
     "NAMESPACE/Namespace by default.md",
     "NAMESPACE/Create objects on namespace.md",
+    "NAMESPACE/Create and delete namaspace.md",
+    "NAMESPACE/Introduction Namespace.md",
+    "NAMESPACE/recursosCrearObjetosEnNamespace.zip",
+    "NAMESPACE/Unconfirmed 328845.crdownload",
+    "NAMESPACE/recursosCrearNamespace.zip",
     "Ejemplo PHP/Ejemplo PHP.md",
-    "NAMESPACE",
     "SERVICES/Practice, service mode declarative.md",
     "SERVICES/SERVICES.md",
     "SERVICES/Application PHP-Redis.md",
@@ -217,14 +230,6 @@
     "SERVICES/Create service type LoadBalancer.md",
     "SERVICES/Create service type NodePort.md",
     "SERVICES/Introduction Services.md",
-    "Ejemplo PHP/ejemplo/redis-slave.yaml",
-    "Ejemplo PHP/ejemplo/redis-slave-service.yaml",
-    "Ejemplo PHP/ejemplo/redis-master.yaml",
-    "Ejemplo PHP/ejemplo/redis-master-service.yaml",
-    "Ejemplo PHP/ejemplo/frontend.yaml",
-    "Ejemplo PHP/ejemplo/frontend-service.yaml",
-    "install/install K8s.md",
-    "install/Generar tokens y hash.md",
     "K8S/Minikube.md",
     "K8S/Estandares.md",
     "SERVICES/practica/web/img/vertical_text_images1.jpg",
@@ -236,11 +241,6 @@
     "SERVICES/practica/web/img/accordion1.jpg",
     "SERVICES/practica/web/fonts/icofont.svg",
     "SERVICES/practica/web/fonts/glyphicons-halflings-regular.svg",
-    "SERVICES/practica/web/fonts/fontawesome-webfont.svg",
-    "Introduction Services.md",
-    "DEPLOYMENTS/Scalar deployment.md",
-    "DEPLOYMENTS/DEPLOYMENTS.md",
-    "DEPLOYMENTS/Command edit.md",
-    "DEPLOYMENTS/Create deployment mode declarative.md"
+    "SERVICES/practica/web/fonts/fontawesome-webfont.svg"
   ]
 }
