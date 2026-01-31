@@ -15,3 +15,4 @@ kubectl get deploy nginx-d
 ```
 kubectl get deploy nginx-d -o yaml
 ```
+

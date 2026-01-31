@@ -68,8 +68,8 @@ spec:
 apiVersion: v1  
 kind: Service  
 metadata:  
- name: web-svc  
- labels:  
+  name: web-svc  
+  labels:  
     app: web  
 spec:  
  type: NodePort  

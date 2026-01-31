@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5fbd6f5712c0a0b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LABEL,SELECTOR,ANOTATIONS/LABEL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LABEL"
-            }
-          },
-          {
             "id": "35eaf719fc0e9da3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROLLING UPDATES/RECREATE.md",
+                "file": "VARIABLES, CONFIGMAPS Y SECRESTS/VARIABLES, CONFIGMAPS Y SECRETS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RECREATE"
+              "title": "VARIABLES, CONFIGMAPS Y SECRETS"
             }
           },
           {
-            "id": "ac6ddcff90799192",
+            "id": "a4b53cdb61986bea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PODS/Dashboard de minikube.md",
+                "file": "SERVICES/Practice, service mode declarative.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard de minikube"
+              "title": "Practice, service mode declarative"
             }
           }
         ],
@@ -194,44 +180,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35eaf719fc0e9da3",
+  "active": "a4b53cdb61986bea",
   "lastOpenFiles": [
-    "ROLLING UPDATES/DESHACER CAMBIOS ROLLING BACK.md",
-    "ROLLING UPDATES/ROLLING UPDATES.md",
-    "ROLLING UPDATES/MODIFICAR LA APLICACION ROLLING UPDATES.md",
-    "ROLLING UPDATES/RECREATE.md",
-    "PODS/PODS.md",
-    "ROLLING UPDATES/nginx-svc.yaml",
-    "ROLLING UPDATES/Unconfirmed 338812.crdownload",
-    "ROLLING UPDATES/deploy_nginx_ori.yaml",
-    "ROLLING UPDATES/Unconfirmed 762730.crdownload",
-    "NAMESPACE/Controler events in a namespece.md",
-    "ROLLING UPDATES",
-    "LINUX/Anaconda.md",
-    "install/Generar tokens y hash.md",
-    "install/install K8s.md",
-    "NAMESPACE/NAMESPACE.md",
-    "NAMESPACE/Put CPU and memory the namespace.md",
-    "NAMESPACE/recursosPonerLimintes.zip",
-    "NAMESPACE/Unconfirmed 176493.crdownload",
-    "NAMESPACE/Namespace by default.md",
-    "NAMESPACE/Create objects on namespace.md",
-    "NAMESPACE/Create and delete namaspace.md",
-    "NAMESPACE/Introduction Namespace.md",
-    "NAMESPACE/recursosCrearObjetosEnNamespace.zip",
-    "NAMESPACE/Unconfirmed 328845.crdownload",
-    "NAMESPACE/recursosCrearNamespace.zip",
+    "SERVICES/Introduction Services.md",
+    "SERVICES/Create service type NodePort.md",
+    "SERVICES/Create service type LoadBalancer.md",
+    "SERVICES/Create service type ClusterIP - Redis.md",
+    "SERVICES/Application PHP-Redis.md",
     "Ejemplo PHP/Ejemplo PHP.md",
+    "DEPLOYMENTS/Workloads and Controllers.md",
+    "DEPLOYMENTS/See information of deployments.md",
+    "DEPLOYMENTS/Scalar deployment.md",
+    "DEPLOYMENTS/Introduction Deployments.md",
+    "DEPLOYMENTS/DEPLOYMENTS.md",
+    "DEPLOYMENTS/Create deploymet mode imperative.md",
+    "DEPLOYMENTS/Create deployment mode declarative.md",
+    "LINUX/Anaconda.md",
+    "LINUX/Configurar SSH.md",
+    "K8S/Estandares.md",
+    "install/install K8s.md",
+    "install/Generar tokens y hash.md",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/Configmap and volumens.md",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/VARIABLES, CONFIGMAPS Y SECRETS.md",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/Configmaps.md",
+    "DEPLOYMENTS/Command edit.md",
     "SERVICES/Practice, service mode declarative.md",
     "SERVICES/SERVICES.md",
-    "SERVICES/Application PHP-Redis.md",
-    "SERVICES/Scalar a deploy. How reaction service?.md",
-    "SERVICES/Create service type ClusterIP - Redis.md",
-    "SERVICES/Create service type LoadBalancer.md",
-    "SERVICES/Create service type NodePort.md",
-    "SERVICES/Introduction Services.md",
-    "K8S/Minikube.md",
-    "K8S/Estandares.md",
+    "LABEL,SELECTOR,ANOTATIONS/LABEL.md",
+    "PODS/Pods multicontenedores.md",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/configMapYVolumenes/configmap.yaml",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/configMapYVolumenes/Unconfirmed 654777.crdownload",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/configMapYVolumenes/pod1.yaml",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/configMapYVolumenes/Unconfirmed 692203.crdownload",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/configMapYVolumenes",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/ejemploCofigurarMySQLConConfigMaps/datos_mysql.properties",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/ejemploCofigurarMySQLConConfigMaps/Unconfirmed 332053.crdownload",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/ejemploCofigurarMySQLConConfigMaps/datos-mysql-env.yaml",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/ejemploCofigurarMySQLConConfigMaps/Unconfirmed 448703.crdownload",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/ejemploCofigurarMySQLConConfigMaps/mysql.yaml",
     "SERVICES/practica/web/img/vertical_text_images1.jpg",
     "SERVICES/practica/web/img/vertical_text_images.jpg",
     "SERVICES/practica/web/img/sliderr1.png",
