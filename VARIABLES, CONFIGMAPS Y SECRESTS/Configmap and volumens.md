@@ -30,16 +30,16 @@ kubectl get cm
 kubectl describe cm config-volume
 kubectl get pod
 kubectl describe pod pod1
-kubectl exec pod1 sh
-env
+kubectl exec pod1 -- env
 ```
 
 Podemos ver que no tenemos las dos variables porque no lo hemos montado como varible, lo hemos montado como volumen. Entonces si me voy al directorio */etc/config-map*
 ```
+kubectl exec -it pod1 -- sh
 cd /etc/config-map
-ls
+ls -la
 cat ENTORNO
 cat VERSION
 ```
 
-Lo a montado como enlaces ENTORNO -> ..data/ENTORNO. Puedo manejar estos ficheros 
+Lo a montado como enlaces ENTORNO -> ..data/ENTORNO. Puedo manejar estos ficheros.

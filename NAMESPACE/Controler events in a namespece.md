@@ -2,12 +2,12 @@ Vamos a ver el seguimiento y control de eventos, hay que tener en cuenta que lo 
 
 # Crear namesapce
 ```
-kubectl create namesapce desarrollo
+kubectl create namespace desarrollo
 ```
 
 # Asignar namespace por defecto
 ```
-kubectl config --set-context --current --namespace=desarrollo
+kubectl config set-context --current --namespace=desarrollo
 ```
 
 Como puedo ver los eventos que se generran en esta namespace?

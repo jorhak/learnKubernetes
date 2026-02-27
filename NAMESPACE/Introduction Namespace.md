@@ -5,7 +5,7 @@ Puedo tener distintos namespace y dentro puedo crear los objetos y trabajar con 
 ```
 kubectl get namespace
 kubectl get ns
-kubectl get namaspace default
+kubectl get namespace default
 kubectl describe namespace default
 ```
 

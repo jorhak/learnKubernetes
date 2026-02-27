@@ -1,0 +1,3 @@
+hola vamos a ver
+como funciona un
+secret desde un fichero
