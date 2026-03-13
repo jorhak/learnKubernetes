@@ -35,9 +35,9 @@ kdel pod-secret-docker.yaml
 ```
 k create secret docker-registry midocker \
   --docker-server=docker.io \
-  --docker-username=jorhak \
+  --docker-username= \
   --docker-password= \
-  --docker-email=00amaterasu16@gmail.com
+  --docker-email=
 ```
 
 5. Modificar fichero _pod-secret-docker.yaml_
