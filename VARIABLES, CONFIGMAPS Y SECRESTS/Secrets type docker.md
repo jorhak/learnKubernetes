@@ -49,3 +49,6 @@ imagePullSecrets:
 
 6. Ejecutar fichero
 	Volvemos a ejecutar los pasos 2 y 3.
+
+[[Subir imagen a un repositorio de imagenes]]
+[[Eliminar commit ya en el repositorio remoto]]
