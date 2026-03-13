@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VARIABLES, CONFIGMAPS Y SECRESTS/Secrets type docker.md",
+                "file": "CONFIGURACION DEL CLUSTER KUBECONFIG/KUBECONFIG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Secrets type docker"
+              "title": "KUBECONFIG"
             }
           }
         ]
@@ -167,6 +167,17 @@
   },
   "active": "a4b53cdb61986bea",
   "lastOpenFiles": [
+    "VARIABLES, CONFIGMAPS Y SECRESTS/Subir imagen a un repositorio de imagenes.md",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/Secrets type docker.md",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/Eliminar commit ya en el repositorio remoto.md",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/VARIABLES, CONFIGMAPS Y SECRETS.md",
+    "VARIABLES, CONFIGMAPS Y SECRESTS/Variables.md",
+    "CONFIGURACION DEL CLUSTER KUBECONFIG/KUBECONFIG.md",
+    "CONFIGURACION DEL CLUSTER KUBECONFIG/Kubeconfig.pdf",
+    "CONFIGURACION DEL CLUSTER KUBECONFIG/Unconfirmed 278123.crdownload",
+    "K8S/Minikube.md",
+    "CONFIGURACION DEL CLUSTER KUBECONFIG",
+    "K8S/Estandares.md",
     "VARIABLES, CONFIGMAPS Y SECRESTS/secretDocker/pod-secret-docker.yaml",
     "VARIABLES, CONFIGMAPS Y SECRESTS/secretDocker/Unconfirmed 215425.crdownload",
     "VARIABLES, CONFIGMAPS Y SECRESTS/secretDocker",
@@ -175,7 +186,6 @@
     "VARIABLES, CONFIGMAPS Y SECRESTS/secretVolume/Unconfirmed 382915.crdownload",
     "VARIABLES, CONFIGMAPS Y SECRESTS/secretVolume/secretoVolumen.yaml",
     "VARIABLES, CONFIGMAPS Y SECRESTS/secretVolume/Unconfirmed 529824.crdownload",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretVolume",
     "VARIABLES, CONFIGMAPS Y SECRESTS/Secrets declaratives.md",
     "ROLLING UPDATES/DESHACER CAMBIOS ROLLING BACK.md",
     "ROLLING UPDATES/MODIFICAR LA APLICACION ROLLING UPDATES.md",
@@ -193,16 +203,6 @@
     "PODS/Show logs pod.md",
     "PODS/Pods multicontenedores.md",
     "PODS/Mi first pod.md",
-    "PODS/Introduction YAML.md",
-    "PODS/How restart our Pod.md",
-    "PODS/Generate settings POD with yaml and json.md",
-    "PODS/Describe pod.md",
-    "PODS/Delete pods.md",
-    "PODS/Dashboard de minikube.md",
-    "PODS/Dashboard.md",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretDeclarativos/secreto2.yaml",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretDeclarativos/Unconfirmed 59353.crdownload",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretDeclarativos/secreto1.yaml",
     "SERVICES/practica/web/img/vertical_text_images1.jpg",
     "SERVICES/practica/web/img/vertical_text_images.jpg",
     "SERVICES/practica/web/img/sliderr1.png",
