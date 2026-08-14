@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "9604947e23a4c890",
+        "id": "e976634b6da488a9",
         "type": "tabs",
         "children": [
           {
-            "id": "a4b53cdb61986bea",
+            "id": "8917ff947e031a86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONFIGURACION DEL CLUSTER KUBECONFIG/KUBECONFIG.md",
+                "file": "16 SCHEDULER ASIGNAR PODS A NODOS/SCHUDELER.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KUBECONFIG"
+              "title": "SCHUDELER"
+            }
+          },
+          {
+            "id": "85434578859798a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "16 SCHEDULER ASIGNAR PODS A NODOS/Taints y Tolerations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Taints y Tolerations"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,7 +83,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -165,53 +182,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4b53cdb61986bea",
+  "active": "85434578859798a9",
   "lastOpenFiles": [
-    "VARIABLES, CONFIGMAPS Y SECRESTS/Subir imagen a un repositorio de imagenes.md",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/Secrets type docker.md",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/Eliminar commit ya en el repositorio remoto.md",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/VARIABLES, CONFIGMAPS Y SECRETS.md",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/Variables.md",
-    "CONFIGURACION DEL CLUSTER KUBECONFIG/KUBECONFIG.md",
-    "CONFIGURACION DEL CLUSTER KUBECONFIG/Kubeconfig.pdf",
-    "CONFIGURACION DEL CLUSTER KUBECONFIG/Unconfirmed 278123.crdownload",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_taints_tolerations/deploy_nginx-toleration.yaml",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_taints_tolerations/Taints+y+Tolertions.pdf",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_taints_tolerations",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/Afinidad de nodos.md",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/Taints y Tolerations.md",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/Introducion.md",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/SCHUDELER.md",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_afinidad_nodos/pod_affinity.yaml",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_afinidad_nodos/NodeAffinity.pdf",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_afinidad_nodos",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/Etiquetas bien definidas.md",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/Ejemplo Node Selector con Deployment.md",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/Node Selector.md",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/Asignar un nodo de forma manual.md",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_node_selector/deploy_nginx.yaml",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_node_selector/nginx.yaml",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_node_selector",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_asignar_manual/pod.yaml",
+    "16 SCHEDULER ASIGNAR PODS A NODOS/recurso_asignar_manual",
+    "13 VARIABLES, CONFIGMAPS Y SECRESTS/Secrets and files.md",
+    "13 VARIABLES, CONFIGMAPS Y SECRESTS/Configmaps.md",
+    "15 CREAR UN CLUSTER REAL CON KUBEADMIN CON MAQUINAS VIRTUALES/CLUSTER.md",
     "K8S/Minikube.md",
-    "CONFIGURACION DEL CLUSTER KUBECONFIG",
     "K8S/Estandares.md",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretDocker/pod-secret-docker.yaml",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretDocker/Unconfirmed 215425.crdownload",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretDocker",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/Secrets and volumens.md",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretVolume/pod1.yaml",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretVolume/Unconfirmed 382915.crdownload",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretVolume/secretoVolumen.yaml",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/secretVolume/Unconfirmed 529824.crdownload",
-    "VARIABLES, CONFIGMAPS Y SECRESTS/Secrets declaratives.md",
-    "ROLLING UPDATES/DESHACER CAMBIOS ROLLING BACK.md",
-    "ROLLING UPDATES/MODIFICAR LA APLICACION ROLLING UPDATES.md",
-    "ROLLING UPDATES/ROLLING UPDATES.md",
-    "DEPLOYMENTS/Workloads and Controllers.md",
-    "DEPLOYMENTS/See information of deployments.md",
-    "DEPLOYMENTS/Scalar deployment.md",
-    "DEPLOYMENTS/Introduction Deployments.md",
-    "DEPLOYMENTS/Create deploymet mode imperative.md",
-    "DEPLOYMENTS/Create deployment mode declarative.md",
-    "DEPLOYMENTS/Command edit.md",
-    "PODS/Welcome to Kubernetes.md",
-    "PODS/Ver el contenido de nuestro objeto pod.md",
-    "PODS/Show pods from Node Cluster.md",
-    "PODS/Show logs pod.md",
-    "PODS/Pods multicontenedores.md",
-    "PODS/Mi first pod.md",
-    "SERVICES/practica/web/img/vertical_text_images1.jpg",
-    "SERVICES/practica/web/img/vertical_text_images.jpg",
-    "SERVICES/practica/web/img/sliderr1.png",
-    "SERVICES/practica/web/img/site-logo.png",
-    "SERVICES/practica/web/img/header-bg.jpg",
-    "SERVICES/practica/web/img/customar-_area_bg.jpg",
-    "SERVICES/practica/web/img/accordion1.jpg",
-    "SERVICES/practica/web/fonts/icofont.svg",
-    "SERVICES/practica/web/fonts/glyphicons-halflings-regular.svg",
-    "SERVICES/practica/web/fonts/fontawesome-webfont.svg"
+    "install/install K8s.md",
+    "install/Generar tokens y hash.md",
+    "15 CREAR UN CLUSTER REAL CON KUBEADMIN CON MAQUINAS VIRTUALES/Requisitos.md",
+    "15 CREAR UN CLUSTER REAL CON KUBEADMIN CON MAQUINAS VIRTUALES/Preparar servidores.md",
+    "15 CREAR UN CLUSTER REAL CON KUBEADMIN CON MAQUINAS VIRTUALES/Crear entorno.md",
+    "10 Ejemplo PHP/Ejemplo PHP.md",
+    "14 CONFIGURACION DEL CLUSTER KUBECONFIG/KUBECONFIG.md",
+    "13 VARIABLES, CONFIGMAPS Y SECRESTS/VARIABLES, CONFIGMAPS Y SECRETS.md",
+    "13 VARIABLES, CONFIGMAPS Y SECRESTS/Variables.md",
+    "13 VARIABLES, CONFIGMAPS Y SECRESTS/Subir imagen a un repositorio de imagenes.md",
+    "13 VARIABLES, CONFIGMAPS Y SECRESTS/Secrets type docker.md",
+    "13 VARIABLES, CONFIGMAPS Y SECRESTS/Secrets declaratives.md",
+    "9 SERVICES/practica/web/img/vertical_text_images1.jpg",
+    "9 SERVICES/practica/web/img/vertical_text_images.jpg",
+    "9 SERVICES/practica/web/img/sliderr1.png",
+    "9 SERVICES/practica/web/img/site-logo.png",
+    "9 SERVICES/practica/web/img/header-bg.jpg",
+    "9 SERVICES/practica/web/img/customar-_area_bg.jpg",
+    "9 SERVICES/practica/web/img/accordion1.jpg",
+    "9 SERVICES/practica/web/fonts/icofont.svg",
+    "9 SERVICES/practica/web/fonts/glyphicons-halflings-regular.svg",
+    "9 SERVICES/practica/web/fonts/fontawesome-webfont.svg"
   ]
 }

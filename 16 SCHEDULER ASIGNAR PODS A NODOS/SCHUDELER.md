@@ -1,0 +1,6 @@
+# [[Introducion]]
+# [[Asignar un nodo de forma manual]]
+# [[Node Selector]]
+# [[Ejemplo Node Selector con Deployment]]
+# [[Etiquetas bien definidas]]
+# [[Afinidad de nodos]]
