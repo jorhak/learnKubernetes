@@ -1,0 +1,6 @@
+# [[Introduccion]]
+# [[Configurar la memoria de un deployment]]
+# [[Configurar la cpu de un deployment]]
+# [[Instalar Metrics Server en Minikube]]
+# [[Instalar Metrics Server en un Cluster Real]]
+# [[Recursos de memoria y cpu]]
