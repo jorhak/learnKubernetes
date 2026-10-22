@@ -22,3 +22,4 @@ anaconda-navigator
 ```
 conda deactivate
 ```
+[[Crear entorno virtual]]
