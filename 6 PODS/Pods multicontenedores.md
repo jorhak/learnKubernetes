@@ -54,7 +54,7 @@ De esa forma podemos ver los logs de un contenedor en especifico de un **pod**. 
 Ejecutar comandos dentro del contenedor
 
 ```
-kubectl exec multi -c frontal -- data
+kubectl exec -it multi -c frontal -- data
 ```
 
 Para ver el movimiento que se realiza podemos entrar al dashboard y ver el comportamiento.
