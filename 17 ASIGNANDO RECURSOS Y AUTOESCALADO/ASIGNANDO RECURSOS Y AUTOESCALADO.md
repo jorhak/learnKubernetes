@@ -1,4 +1,4 @@
-# [[Introduccion]]
+# [[17 ASIGNANDO RECURSOS Y AUTOESCALADO/Introduccion]]
 # [[Configurar la memoria de un deployment]]
 # [[Configurar la cpu de un deployment]]
 # [[Instalar Metrics Server en Minikube]]

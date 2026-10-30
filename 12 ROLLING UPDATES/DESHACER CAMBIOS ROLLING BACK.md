@@ -24,7 +24,7 @@ Ahora lo que debemos hacer es volver hacia atras.
 
 # RollingBack
 ```
-kubectl rollout undu deploy nginx-d --to-revision=2
+kubectl rollout undo deploy nginx-d --to-revision=2
 kubectl rollout status deploy nginx-d
 kubectl rollout history deploy nginx-d
 kubectl rollout history deploy nginx-d --revision=5

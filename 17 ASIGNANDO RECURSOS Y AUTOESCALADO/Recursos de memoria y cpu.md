@@ -226,3 +226,77 @@ El kernel soporta el tamano de las paginas se divide en bloques de 4K.
 Con este recurso podemos tener paginas de 2MB o hasta 1GB.
 No todos los OS puden soportar paginas grandes.
 # Configurar HugePages en Linux
+Esta configuracion se la debe hacer en todos los nodos worker.
+Para este proposito lo vamos a ver en un minikube. Para ello vamos a ejecutar los siguientes comandos
+```bash
+minikube ssh -n cluster1-m05 -p cluster1
+```
+Como verifico si ya tengo esta caracteristica configurada:
+```bash
+cd /proc
+ls meminfo
+cat meminfo
+cat meminfo | grep Huge
+```
+
+```bash
+sysctl -a | grep huge
+```
+Si los valores que nos devuelve son cero, no esta configurada.
+Para que me sirve configurar HugePages, por decir, si queremos instalar Oracle en un nodo determinado del cluster, vamos a poder crear pods asignados exclusivamente a ese pod que tiena la capacidad de soportar Oracle y que se llege asignar automaticamente a ese nodo. Configurar esta estructura de memoria que necesita Oracle para su funcionamiento mientras que las otras no porque no vamos a instalar Oracle en los otros nodos.
+Para configurar esta caracteristica debemos ser **root**.
+```bash
+cd /etc
+sudo vi sysctl.conf
+```
+
+```text
+vm.nr_hugepages=100
+```
+En este caso son paginas de 2MB por lo tanto esto se va multiplicar **2x10**, lo que significa que vamos a tener 100 paginas de 2MB
+```bash
+sudo sysctl -p
+cd /proc
+cat meminfo | grep Huge
+```
+Tarea: Crear un pod de mysql que utilice paginas grandes y que se cree especificamente en ese nodo, utilizando scheduler, lo que ya hemos visto para la asignacion de un pod a un nodo.
+# Introduccion al autoescalado
+Autoescalado es la posibilidad de aumentar o reducir los recursos que le dedicamos a nuestros **pods** , **contenedores** dependiendo de las cargas de trabajo que tengamos en la plataforma.
+Tenemos tres tipos de autoescalado
+- HPA (Horizontal Pod AutoScaler)
+- VPA (Vertical Pod AutoScaler)
+- CA (Cluster AutoScaler)
+# Laboratorio HPA autoescalado
+### Workspace
+```bash
+cd /home/jon/Documents/kubernetes/17 ASIGNANDO RECURSOS Y AUTOESCALADO/recursos/resourceautoescalado
+```
+En este lab vamos a tener en cuenta el request para realizar el escalado, vamos a comenzar con una replica y vamos a lanzar peticiones que hagan que la CPU aumente su uso y de esta forma crear mas **pods**. 
+## Desplegar deploy
+```bash
+kubectl apply -f deploy_hpa.yaml
+```
+## Desplegar servicio
+```bash
+kubectl apply -f servicio_hpa.yaml
+```
+### Verificar que los objetos estan levantados
+```bash
+kubectl get deploy,svc,pod
+```
+Como en este caso no queremos hacer la prueba desde fuera sino desde otro **pod** que va ha realizar peticiones al **pod** del **deploy**.
+# Crear HPA
+```bash
+kubectl autoscale --help
+kubectl autoscale deployment apache --cpu-percent=40 --min=1 --max=8
+kubectl get hpa
+```
+# Escalar pod
+```bash
+kubectl run -i --tty carga --rm --image=busybox:1.28 --restart=never -- /bin/sh -c "while sleep 0.01; do wget -q -0- http://apache; done"
+```
+# Ver el incremento
+```bash
+kubectl get hpa
+```
+Lo que debemos hacer es esperar a que se realicen los cambios, luego finalizamos la ejecucion de la peticion y tambien esperamos para ver como es que queda finalmente.
