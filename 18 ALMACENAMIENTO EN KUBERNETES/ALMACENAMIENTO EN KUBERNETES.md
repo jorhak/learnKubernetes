@@ -8,5 +8,5 @@
 # [[Crear un Persistent Volume Claim]]
 # [[Crear el pod asociado]]
 # [[Ejemplo con NFS. Montar el entorno]]
-# [[Ejemplo con NFS: Aplicacion NGINX]]
-# [[Ejemplo: WordPress con MySql]]
+# [[Ejemplo con NFS - Aplicacion NGINX]]
+# [[Ejemplo - WordPress con MySql]]
