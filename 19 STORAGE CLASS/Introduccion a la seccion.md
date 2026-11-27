@@ -1,0 +1,1 @@
+Vamos a crear Clases de Almacenamiento y ver como con ellas podemos crear de forma muy dinamica objetos y componentes que nos permitan disponer de un almacenamiento que sea solicitado de manera dinamica y de manera automatica por los pods.

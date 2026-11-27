@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: aws2-disk
+  labels:
+    type: cloud
+spec:
+  storageClassName: aws
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Delete
+  awsElasticBlockStore:
+    volumeID: vol-00ed448b97f0f2951
+    fsType: ext4

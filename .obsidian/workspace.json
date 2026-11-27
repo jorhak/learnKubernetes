@@ -41,30 +41,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18 ALMACENAMIENTO EN KUBERNETES/Ejemplo - WordPress con MySql.md",
+                "file": "19 STORAGE CLASS/STORAGE CLASS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ejemplo - WordPress con MySql"
+              "title": "STORAGE CLASS"
             }
           },
           {
-            "id": "b41de97609c6b190",
+            "id": "e7ed0dcdb0332e79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18 ALMACENAMIENTO EN KUBERNETES/Ejemplo con NFS - Aplicacion NGINX.md",
+                "file": "19 STORAGE CLASS/STORAGE CLASS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ejemplo con NFS - Aplicacion NGINX"
+              "title": "STORAGE CLASS"
+            }
+          },
+          {
+            "id": "6825888e7a5d8bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "19 STORAGE CLASS/STORAGE CLASS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STORAGE CLASS"
+            }
+          },
+          {
+            "id": "ae9d8acfd27ad3b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "19 STORAGE CLASS/STORAGE CLASS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STORAGE CLASS"
+            }
+          },
+          {
+            "id": "7473833e2ff2f9ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "18 ALMACENAMIENTO EN KUBERNETES/ALMACENAMIENTO EN KUBERNETES.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ALMACENAMIENTO EN KUBERNETES"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -210,22 +252,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f2c7e076faf09fc",
+  "active": "7473833e2ff2f9ea",
   "lastOpenFiles": [
-    "18 ALMACENAMIENTO EN KUBERNETES/ALMACENAMIENTO EN KUBERNETES.md",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/WordPressMysql/pv-wordpress.yaml",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/WordPressMysql/pv-mysql.yaml",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/WordPressMysql/pvc-wordpress.yaml",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/WordPressMysql/pvc-mysql.yaml",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/WordPressMysql/mysql-deployment.yaml",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/WordPressMysql/wordpress-deployment.yaml",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/WordPressMysql",
-    "18 ALMACENAMIENTO EN KUBERNETES/Ejemplo con NFS. Montar el entorno.md",
+    "19 STORAGE CLASS/Laboratorio - AWS y discos ESB.md",
+    "19 STORAGE CLASS/recursos/ebs/sc.yaml",
+    "19 STORAGE CLASS/recursos/ebs/pv.yaml",
+    "19 STORAGE CLASS/recursos/ebs/pvc.yaml",
+    "19 STORAGE CLASS/recursos/ebs/pod.yaml",
+    "19 STORAGE CLASS/recursos/ebs",
+    "19 STORAGE CLASS/Introduccion a las Sotrage Class.md",
+    "19 STORAGE CLASS/recursos/pv.yaml",
+    "19 STORAGE CLASS/recursos/postgres.yaml",
+    "19 STORAGE CLASS/recursos/pod-pvc.yaml",
+    "19 STORAGE CLASS/recursos/storage-class-yaml",
+    "19 STORAGE CLASS/recursos/pvclaim.yaml",
+    "19 STORAGE CLASS/STORAGE CLASS.md",
+    "19 STORAGE CLASS/Introduccion a la seccion.md",
     "18 ALMACENAMIENTO EN KUBERNETES/Ejemplo con NFS - Aplicacion NGINX.md",
+    "18 ALMACENAMIENTO EN KUBERNETES/introduccion a la seccion.md",
+    "install/install K8s.md",
+    "K8S/Minikube.md",
+    "K8S/Estandares.md",
     "18 ALMACENAMIENTO EN KUBERNETES/Ejemplo - WordPress con MySql.md",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/WordPressMysql.zip",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/nginx_nfs/pv-nfs.yaml",
-    "18 ALMACENAMIENTO EN KUBERNETES/recursos/nginx_nfs/pvc-nfs.yaml",
+    "18 ALMACENAMIENTO EN KUBERNETES/ALMACENAMIENTO EN KUBERNETES.md",
+    "18 ALMACENAMIENTO EN KUBERNETES/Ejemplo con NFS. Montar el entorno.md",
     "18 ALMACENAMIENTO EN KUBERNETES/Crear el pod asociado.md",
     "18 ALMACENAMIENTO EN KUBERNETES/Crear un PV. Ejemplo con HostPath.md",
     "18 ALMACENAMIENTO EN KUBERNETES/Crear un Persistent Volume Claim.md",
@@ -235,18 +285,10 @@
     "18 ALMACENAMIENTO EN KUBERNETES/Como crear volumenes.md",
     "18 ALMACENAMIENTO EN KUBERNETES/Introduccion al almacenamiento.md",
     "kubernetes.io/docs/concepts/storage/volumes.md",
-    "18 ALMACENAMIENTO EN KUBERNETES/introduccion a la seccion.md",
     "17 ASIGNANDO RECURSOS Y AUTOESCALADO/Recursos de memoria y cpu.md",
     "12 ROLLING UPDATES/DESHACER CAMBIOS ROLLING BACK.md",
     "11 NAMESPACE/Put CPU and memory the namespace.md",
     "11 NAMESPACE/Namespace by default.md",
-    "11 NAMESPACE/NAMESPACE.md",
-    "11 NAMESPACE/Introduction Namespace.md",
-    "11 NAMESPACE/Create objects on namespace.md",
-    "11 NAMESPACE/Create and delete namaspace.md",
-    "11 NAMESPACE/Controler events in a namespece.md",
-    "17 ASIGNANDO RECURSOS Y AUTOESCALADO/Instalar Metrics Server en un Cluster Real.md",
-    "LINUX/Configurar SSH.md",
     "9 SERVICES/practica/web/img/vertical_text_images1.jpg",
     "9 SERVICES/practica/web/img/vertical_text_images.jpg",
     "9 SERVICES/practica/web/img/sliderr1.png",
